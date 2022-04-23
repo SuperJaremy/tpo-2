@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 public class Sin {
-    public static double sin(double x, double delta) {
+    public double sin(double x, double delta) {
         double sum = 0;
         int n = 0;
         double step;
@@ -16,7 +16,7 @@ public class Sin {
         return sum;
     }
 
-    private static double makeStep(double x, int n) {
+    private double makeStep(double x, int n) {
         BigDecimal divisor = factorial(2 * n + 1);
         BigDecimal dividend = BigDecimal.valueOf(x).pow(2 * n + 1);
         if (n % 2 != 0)

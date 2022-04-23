@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e8af062-406b-46f0-a0c1-79c8d8945901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/Ln.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/Sin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/LnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/SinTest.java" afterDir="false" />
+    <list default="true" id="4e8af062-406b-46f0-a0c1-79c8d8945901" name="Changes" comment="Sin and Ln functions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/level1/Csc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/level1/LogN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/level1/CscTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/level1/LogNTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/Ln.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Ln.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/Sin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Sin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/LnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/LnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/SinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/SinTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,49 +51,86 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LnTest.testLn">
-    <configuration name="LnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="level1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LogNTest">
+    <configuration name="CscTest.testCscWithoutMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tpo-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.*" />
+          <option name="PATTERN" value="level1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="base" />
-      <option name="MAIN_CLASS_NAME" value="base.LnTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LnTest.testLn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tpo-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="base" />
-      <option name="MAIN_CLASS_NAME" value="base.LnTest" />
-      <option name="METHOD_NAME" value="testLn(double,double)" />
+      <option name="PACKAGE_NAME" value="level1" />
+      <option name="MAIN_CLASS_NAME" value="level1.CscTest" />
+      <option name="METHOD_NAME" value="testCscWithoutMock(double,double)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinTest.testSin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogNTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tpo-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.*" />
+          <option name="PATTERN" value="level1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="base" />
-      <option name="MAIN_CLASS_NAME" value="base.SinTest" />
-      <option name="METHOD_NAME" value="testSin(double,double)" />
+      <option name="PACKAGE_NAME" value="level1" />
+      <option name="MAIN_CLASS_NAME" value="level1.LogNTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogNTest.testLn (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tpo-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="level1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="level1" />
+      <option name="MAIN_CLASS_NAME" value="level1.LogNTest" />
+      <option name="METHOD_NAME" value="testLn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogNTest.testLogN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tpo-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="level1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="level1" />
+      <option name="MAIN_CLASS_NAME" value="level1.LogNTest" />
+      <option name="METHOD_NAME" value="testLogN(double,double,double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogNTest.testLogNWithoutMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tpo-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="level1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="level1" />
+      <option name="MAIN_CLASS_NAME" value="level1.LogNTest" />
+      <option name="METHOD_NAME" value="testLogNWithoutMock(double,double,double)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,9 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LnTest.testLn" />
-        <item itemvalue="JUnit.LnTest" />
-        <item itemvalue="JUnit.SinTest.testSin" />
+        <item itemvalue="JUnit.LogNTest" />
+        <item itemvalue="JUnit.LogNTest.testLogNWithoutMock" />
+        <item itemvalue="JUnit.CscTest.testCscWithoutMock" />
+        <item itemvalue="JUnit.LogNTest.testLogN" />
+        <item itemvalue="JUnit.LogNTest.testLn (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -114,8 +154,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650710834189</updated>
-      <workItem from="1650710836455" duration="6634000" />
+      <workItem from="1650710836455" duration="15945000" />
     </task>
+    <task id="LOCAL-00001" summary="Sin and Ln functions">
+      <created>1650720345097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650720345097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,13 +180,18 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sin and Ln functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sin and Ln functions" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/base/SinTest.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
+          <condition expression="value == 8900" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/test/java/level1/CscTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

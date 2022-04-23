@@ -7,10 +7,12 @@ public class Ln {
 
     private final static double DELTA = 1e-12;
 
-    public static double ln(double x, double delta) {
-        if (x < 0 || Math.abs(x - 0) < DELTA) {
+    public double ln(double x, double delta) {
+        if (x < 0) {
             return Double.NaN;
         }
+        if(Math.abs(x - 0) < DELTA)
+            return Double.NEGATIVE_INFINITY;
         BigDecimal sum = BigDecimal.ZERO;
         int n = 1;
         BigDecimal step;
@@ -22,7 +24,7 @@ public class Ln {
         return 2 * sum.doubleValue();
     }
 
-    private static BigDecimal makeStep(double x, int n) {
+    private BigDecimal makeStep(double x, int n) {
         final BigDecimal divisor = BigDecimal.valueOf(2L * n - 1);
         BigDecimal dividend = BigDecimal.valueOf(x - 1).divide(BigDecimal.valueOf(x + 1), 10, RoundingMode.HALF_UP);
         dividend = dividend.pow(2 * n - 1);
