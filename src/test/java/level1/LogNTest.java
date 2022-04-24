@@ -11,15 +11,12 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.anyDouble;
-import static org.mockito.ArgumentMatchers.eq;
 
 @ExtendWith(MockitoExtension.class)
 public class LogNTest {
 
     @Mock
     private Ln lnMock;
-
-    private Ln ln;
 
     private LogN logN;
 
@@ -45,7 +42,7 @@ public class LogNTest {
             "5, 5, 1", "8, 5, 1.292", "0, 5, -Infinity", "-1, 5, NaN", "100, 5, 2.861",
             "32, 10, 1.505", "-2, 10, NaN"})
     public void testLogNWithoutMock(double value, double power, double expected) {
-        ln = new Ln();
+        Ln ln = new Ln();
         logN = new LogN(ln);
         final double delta = 0.0001;
         assertEquals(expected, logN.logN(value, power, delta), 0.001);
