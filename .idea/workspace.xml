@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e8af062-406b-46f0-a0c1-79c8d8945901" name="Changes" comment="LogN and Csc functions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/level2/Func.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/level2/FuncTest.java" afterDir="false" />
+    <list default="true" id="4e8af062-406b-46f0-a0c1-79c8d8945901" name="Changes" comment="Main function">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/csv/CsvWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/level1/LogNTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/level1/LogNTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +50,10 @@
       <recent name="level1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FuncTest">
-    <configuration name="CscTest.testCscWithoutMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="tpo-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="level1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="level1" />
-      <option name="MAIN_CLASS_NAME" value="level1.CscTest" />
-      <option name="METHOD_NAME" value="testCscWithoutMock(double,double)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FuncTest" />
         <item itemvalue="JUnit.FuncTest.testFunc" />
         <item itemvalue="JUnit.LogNTest" />
         <item itemvalue="JUnit.LogNTest.testLogNWithoutMock" />
-        <item itemvalue="JUnit.CscTest.testCscWithoutMock" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650710834189</updated>
       <workItem from="1650710836455" duration="17223000" />
-      <workItem from="1650797437378" duration="4814000" />
+      <workItem from="1650797437378" duration="7547000" />
     </task>
     <task id="LOCAL-00001" summary="Sin and Ln functions">
       <created>1650720345097</created>
@@ -164,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650742704811</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Main function">
+      <created>1650808271690</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650808271690</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +182,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sin and Ln functions" />
     <MESSAGE value="LogN and Csc functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="LogN and Csc functions" />
+    <MESSAGE value="Main function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main function" />
   </component>
 </project>
